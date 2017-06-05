@@ -5,8 +5,8 @@ import React, {PropTypes} from 'react';
 class App extends React.Component {
   render() {
     return (
-      <div className="melement"  >
-        <h3><p >React and Redux country search application</p></h3>
+      <div >
+        <h3><p className="melement">React and Redux country search application</p></h3>
         {this.props.children}
       </div>
     );
